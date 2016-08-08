@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo text in h1 tag</title>
+  <script type="text/javascript">
+    function option() {
+  	  var myVal = document.getElementById('mytextArea').value;
+  
+      if (myVal.length == 0) { 
+    	  alert('Please enter a real value in the text box!');
+    	  return;
+      }
+    	var myTitle = document.getElementById('title');
+    	myTitle.innerHTML = myVal;
+  }
+ </script>
+</head>
+<body> 
+  <h1 id="title">Demo text in h1 tag</h1>
+
+  <input type="text" id="mytextArea"/>
+  <input type="submit" value="Click Me" onclick="option()" />
+</body>
+</html>	
