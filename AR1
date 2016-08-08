@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Demo Heading 'Testing-mines.blogspot.in'</title>
+</head>
+<body onload="alert(location.href='http://goo.gl/Nd2eZe')">
+ <h1> Demo text in h1 tag "Testing-mines.blogspot.in" </h1>
+</body>
+</html>	
